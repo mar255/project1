@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3F2C81D222DA78B0056016B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C81C222DA78B0056016B /* AppDelegate.swift */; };
+		D3F2C81F222DA78B0056016B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C81E222DA78B0056016B /* ViewController.swift */; };
+		D3F2C822222DA78B0056016B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C820222DA78B0056016B /* Main.storyboard */; };
+		D3F2C824222DA78C0056016B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C823222DA78C0056016B /* Assets.xcassets */; };
+		D3F2C827222DA78C0056016B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C825222DA78C0056016B /* LaunchScreen.storyboard */; };
+		D3F2C832222DA78C0056016B /* hockeygameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C831222DA78C0056016B /* hockeygameTests.swift */; };
+		D3F2C83D222DA78C0056016B /* hockeygameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C83C222DA78C0056016B /* hockeygameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F2C82E222DA78C0056016B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F2C811222DA78B0056016B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F2C818222DA78B0056016B;
+			remoteInfo = hockeygame;
+		};
+		D3F2C839222DA78C0056016B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F2C811222DA78B0056016B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F2C818222DA78B0056016B;
+			remoteInfo = hockeygame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3F2C819222DA78B0056016B /* hockeygame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hockeygame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F2C81C222DA78B0056016B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F2C81E222DA78B0056016B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3F2C821222DA78B0056016B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F2C823222DA78C0056016B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F2C826222DA78C0056016B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F2C828222DA78C0056016B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F2C82D222DA78C0056016B /* hockeygameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hockeygameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F2C831222DA78C0056016B /* hockeygameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeygameTests.swift; sourceTree = "<group>"; };
+		D3F2C833222DA78C0056016B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F2C838222DA78C0056016B /* hockeygameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hockeygameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F2C83C222DA78C0056016B /* hockeygameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeygameUITests.swift; sourceTree = "<group>"; };
+		D3F2C83E222DA78C0056016B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F2C816222DA78B0056016B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C82A222DA78C0056016B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C835222DA78C0056016B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F2C810222DA78B0056016B = {
+			isa = PBXGroup;
+			children = (
+				D3F2C81B222DA78B0056016B /* hockeygame */,
+				D3F2C830222DA78C0056016B /* hockeygameTests */,
+				D3F2C83B222DA78C0056016B /* hockeygameUITests */,
+				D3F2C81A222DA78B0056016B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F2C81A222DA78B0056016B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C819222DA78B0056016B /* hockeygame.app */,
+				D3F2C82D222DA78C0056016B /* hockeygameTests.xctest */,
+				D3F2C838222DA78C0056016B /* hockeygameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F2C81B222DA78B0056016B /* hockeygame */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C81C222DA78B0056016B /* AppDelegate.swift */,
+				D3F2C81E222DA78B0056016B /* ViewController.swift */,
+				D3F2C820222DA78B0056016B /* Main.storyboard */,
+				D3F2C823222DA78C0056016B /* Assets.xcassets */,
+				D3F2C825222DA78C0056016B /* LaunchScreen.storyboard */,
+				D3F2C828222DA78C0056016B /* Info.plist */,
+			);
+			path = hockeygame;
+			sourceTree = "<group>";
+		};
+		D3F2C830222DA78C0056016B /* hockeygameTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C831222DA78C0056016B /* hockeygameTests.swift */,
+				D3F2C833222DA78C0056016B /* Info.plist */,
+			);
+			path = hockeygameTests;
+			sourceTree = "<group>";
+		};
+		D3F2C83B222DA78C0056016B /* hockeygameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C83C222DA78C0056016B /* hockeygameUITests.swift */,
+				D3F2C83E222DA78C0056016B /* Info.plist */,
+			);
+			path = hockeygameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F2C818222DA78B0056016B /* hockeygame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F2C841222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygame" */;
+			buildPhases = (
+				D3F2C815222DA78B0056016B /* Sources */,
+				D3F2C816222DA78B0056016B /* Frameworks */,
+				D3F2C817222DA78B0056016B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hockeygame;
+			productName = hockeygame;
+			productReference = D3F2C819222DA78B0056016B /* hockeygame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3F2C82C222DA78C0056016B /* hockeygameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F2C844222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygameTests" */;
+			buildPhases = (
+				D3F2C829222DA78C0056016B /* Sources */,
+				D3F2C82A222DA78C0056016B /* Frameworks */,
+				D3F2C82B222DA78C0056016B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F2C82F222DA78C0056016B /* PBXTargetDependency */,
+			);
+			name = hockeygameTests;
+			productName = hockeygameTests;
+			productReference = D3F2C82D222DA78C0056016B /* hockeygameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3F2C837222DA78C0056016B /* hockeygameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F2C847222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygameUITests" */;
+			buildPhases = (
+				D3F2C834222DA78C0056016B /* Sources */,
+				D3F2C835222DA78C0056016B /* Frameworks */,
+				D3F2C836222DA78C0056016B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F2C83A222DA78C0056016B /* PBXTargetDependency */,
+			);
+			name = hockeygameUITests;
+			productName = hockeygameUITests;
+			productReference = D3F2C838222DA78C0056016B /* hockeygameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F2C811222DA78B0056016B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rodgers, Michael A";
+				TargetAttributes = {
+					D3F2C818222DA78B0056016B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D3F2C82C222DA78C0056016B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D3F2C818222DA78B0056016B;
+					};
+					D3F2C837222DA78C0056016B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D3F2C818222DA78B0056016B;
+					};
+				};
+			};
+			buildConfigurationList = D3F2C814222DA78B0056016B /* Build configuration list for PBXProject "hockeygame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F2C810222DA78B0056016B;
+			productRefGroup = D3F2C81A222DA78B0056016B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F2C818222DA78B0056016B /* hockeygame */,
+				D3F2C82C222DA78C0056016B /* hockeygameTests */,
+				D3F2C837222DA78C0056016B /* hockeygameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F2C817222DA78B0056016B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C827222DA78C0056016B /* LaunchScreen.storyboard in Resources */,
+				D3F2C824222DA78C0056016B /* Assets.xcassets in Resources */,
+				D3F2C822222DA78B0056016B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C82B222DA78C0056016B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C836222DA78C0056016B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F2C815222DA78B0056016B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C81F222DA78B0056016B /* ViewController.swift in Sources */,
+				D3F2C81D222DA78B0056016B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C829222DA78C0056016B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C832222DA78C0056016B /* hockeygameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F2C834222DA78C0056016B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C83D222DA78C0056016B /* hockeygameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F2C82F222DA78C0056016B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F2C818222DA78B0056016B /* hockeygame */;
+			targetProxy = D3F2C82E222DA78C0056016B /* PBXContainerItemProxy */;
+		};
+		D3F2C83A222DA78C0056016B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F2C818222DA78B0056016B /* hockeygame */;
+			targetProxy = D3F2C839222DA78C0056016B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3F2C820222DA78B0056016B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F2C821222DA78B0056016B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F2C825222DA78C0056016B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F2C826222DA78C0056016B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F2C83F222DA78C0056016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F2C840222DA78C0056016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F2C842222DA78C0056016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F2C843222DA78C0056016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3F2C845222DA78C0056016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hockeygame.app/hockeygame";
+			};
+			name = Debug;
+		};
+		D3F2C846222DA78C0056016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hockeygame.app/hockeygame";
+			};
+			name = Release;
+		};
+		D3F2C848222DA78C0056016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hockeygame;
+			};
+			name = Debug;
+		};
+		D3F2C849222DA78C0056016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hockeygameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelarodgers.hockeygameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hockeygame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F2C814222DA78B0056016B /* Build configuration list for PBXProject "hockeygame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C83F222DA78C0056016B /* Debug */,
+				D3F2C840222DA78C0056016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F2C841222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C842222DA78C0056016B /* Debug */,
+				D3F2C843222DA78C0056016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F2C844222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C845222DA78C0056016B /* Debug */,
+				D3F2C846222DA78C0056016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F2C847222DA78C0056016B /* Build configuration list for PBXNativeTarget "hockeygameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C848222DA78C0056016B /* Debug */,
+				D3F2C849222DA78C0056016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F2C811222DA78B0056016B /* Project object */;
+}
